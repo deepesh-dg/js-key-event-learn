@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Keybaord Event</title>
+
+        <style>
+            html {
+                font-size: 10px;
+            }
+
+            body {
+                margin: 0rem;
+                padding: 0rem;
+                font-size: 1.6rem;
+            }
+
+            .container {
+                padding: 0rem 1.5rem;
+            }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0rem -1.5rem;
+            }
+
+            .col {
+                position: relative;
+                width: 100%;
+                max-width: 100%;
+                flex-basis: 0;
+                flex-grow: 1;
+                padding: 0rem 1.5rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col keydown">
+                    <h2>KeyDown</h2>
+                </div>
+                <div class="col keypress">
+                    <h2>KeyPress</h2>
+                </div>
+                <div class="col keyup">
+                    <h2>KeyUp</h2>
+                </div>
+            </div>
+        </div>
+
+        <script src="./style.js"></script>
+    </body>
+</html>
